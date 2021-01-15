@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!-- CONFIGURACION DEL HTML -->
+    <head>
+        <meta charset="UTF-8">
+        <title>Principal</title>
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="stylesheet" type="text/css" href="css/main_styles.css">
+        <script src="javascript.js"></script>
+        <link rel="icon" type="image/png" href="favicon.png" />
+        <link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
+        <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+        <link rel="stylesheet" href="path/to/css/smart-forms.css">
+        <link rel="stylesheet" href="fontawesome-free-5.15.1-web\css\font-awesome.min.css"> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+       
+    
+
+  
+    <link href="../css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+   
+    <script src="../js/ie-emulation-modes-warning.js"></script>
+        <link href="../css/carousel.css" rel="stylesheet">
+    <script src="../js/jquery.min.js"></script>
+            <script type="text/javascript" src="funcines.js"></script>
+
+    </head>
+    <!-- CONTENIDO DEL HTML -->
+    <!-- EN EL HTML SE PUEDE REFERENCIAR MEDIANTE CLASES AGREGANDOLE EL ATRIBUTO CLASS AL ELEMENTO,
+    SI SE REQUIERE AGREGAR MAS DE UNA CLASE SE SEPARA POR ESPACIOS -->
+    <body>
+
+        <div id="agrupar">
+            <header id="cabecera">
+            
+                <img class="logo_1" src="images/logo.png" onclick="prueba1()" style="cursor: pointer" height="540" alt="">
+               
+            
+            </header>
+        </div>
+        <!-- BARRA DE NAVEGACION-->
+        <nav class="topnav" id="myTopnav">
+            <ul>
+                <li><a href="ubicacion.html"><span>Ubicacion<span></a></li>
+                <li><a href="Home.html"><span>Home<span></a></li>
+            </ul>
+        </nav>
+        
+        <section id="seccion">
+
+
+            <article>
+         
+<div class="container">
+        <div class="container">
+            <h4>Hotel</h4>
+            
+           
+            <strong>Contactenos</strong><br><strong>Oficina:</strong> 123456789
+            <hr>
+        </div>
+        <div class="container">
+            <form role="form" id="Formulario" action="../php/contacto2.php" method="POST">
+                <div class="form-group">
+                    <label class="control-label" for="Nombre">Nombres</label>
+                    <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Introduzca su nombre" required autofocus />
+                </div>            
+                <div class="form-group">
+                    <label class="control-label" for="Motivo">Motivo de Contacto</label>
+                    <select name="Motivo" class="form-control">
+                        <option value="Consulta General">Consulta General</option>
+                        <option value="Realizar Pedido">Realizar Pedido</option>
+                        <option value="Informe un problema">Informe un problema</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="Empresa">Empresa</label>
+                    <input type="text" class="form-control" id="Empresa" name="Empresa" placeholder="Introduzca el nombre de su empresa" required />
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="Correo">Dirección de Correo Electrónico</label>
+                    <input type="email" class="form-control" id="Correo" name="Correo" placeholder="Introduzca su correo electrónico" required />
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="Mensaje">Mensaje</label>
+                    <textarea rows="5" cols="30" class="form-control" id="Mensaje" name="Mensaje" placeholder="Introduzca su mensaje" required ></textarea>
+                </div>
+                <div class="form-group">                
+                    <input type="submit" class="btn btn-primary" value="Enviar">
+                    <input type="reset" class="btn btn-default" value="Limpiar">                
+                </div>
+                <div id="respuesta" style="display: none;"></div>
+            </form>
+        </div>       
+    </div>
+            </article>
+        </section>
+      
+      
+           <footer class="footer">
+    
+        <div class="footer_content d-flex flex-column align-items-center justify-content-lg-end justify-content-center">
+            
+            
+            <div class="logo">
+                <img class="logo_1" src="images/logo.png" onclick="prueba1()" style="cursor: pointer" width="240" height="140" alt="">
+                <img class="logo_2" src="images/logo.png" width="100" onclick="prueba1()" style="cursor: pointer" height="50"  alt="" >
+                <img class="logo_3" src="images/logo.png" width="100" onclick="prueba1()" style="cursor: pointer" height="50" alt=""></div>
+
+
+                     <div class="row">
+                           
+                                <div class="footer_info d-flex flex-column align-items-lg-end align-items-center justify-content-start">
+                                <div class="text-center">
+                                        <div>Telefono:</div>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                           
+                                <div class="footer_info d-flex flex-column align-items-center justify-content-start">
+                                    <div class="text-center">
+                                        <div>Direccion:</div>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 footer_col">
+                                <div class="footer_info d-flex flex-column align-items-lg-start align-items-center justify-content-start">
+                                    <div class="text-center">
+                                        <div>Mail:</div>
+                                      
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>  
+   
+        </footer>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../js/jquery.min.js"><\/script>')</script>
+</html>
+
+
+
+
+
+	

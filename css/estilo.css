@@ -1,0 +1,260 @@
+
+/* REFERENCIANDO CON PALABRA CLAVE */
+/* h1{
+    font-size: 100px;
+} */
+
+/* REFERENCIANDO CON EL ATRIBUTO ID */
+/* #titulo-principal{
+    font-size: 100px;    
+} */
+
+/* REFERENCIANDO CON EL ATRIBUTO CLASS */
+/* .color-green{
+    color: green;
+} */
+
+/* REFERENCIANDO MEDIANTE CUALQUIER ATRIBUTO */
+/* header[name="t1"]{
+    color: green;
+} */
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+#menu ul
+{
+    height: 38px;
+}
+#menu ul li:not(:last-of-type)
+{
+    margin-right: 57px;
+}
+#menu ul li a
+{
+    font-size: 20px;
+    font-weight: 200;
+    color: #ffffff;
+}
+#menu  li a:hover,
+#menu li.active a
+{
+    color: #ff9000;
+}
+
+h1{
+    font: bold 20px verdana, sans-serif
+}
+
+h2{
+    font: bold 14px verdana, sans-serif
+}
+
+header, section, footer, aside, nav, article, figure, figcaption, hgroup{
+    display: block;
+}
+
+
+
+body{
+    text-align: center;
+}
+
+#agrupar{
+    width: 100%;
+    margin: 14px auto;
+    text-align: left;
+     background-image: url("fondo.jpg");
+}
+
+#cabecera {
+  
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(14,9,35,0.88);
+    z-index: 101;
+    border-bottom: solid 2px #ff9000;
+
+}
+
+#menu{
+    background: rgba(14,9,35,0.88);
+      z-index: 101;
+    padding: 0px 10px;
+      border-bottom: solid 2px #ffffff;
+}
+
+#menu li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 15px verdana, sans-serif
+}
+
+.logo_1{
+
+    width: 130px;
+    height: 90px;
+     padding: 5px 45%;
+
+}
+.topnav {
+    background: rgba(14,9,35,0.88);
+    z-index: 101;
+    border-bottom: solid 2px #ff9000;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: contents;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+#seccion {
+    float: center;
+    width: 95%;
+    margin: 30px;
+
+}
+video {
+  width: 100%;
+  height: auto;
+}
+
+#columna {
+    float: center;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: #CCCCCC;
+}
+
+#pie{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #999999;
+}
+
+img{
+    width: 100%;
+}
+section{
+
+    background-image: url("fondo.png");
+}
+article{
+    background: #FFFBCC;
+    border: 1px solid #999999;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+article footer{
+    text-align: center;
+}
+
+figcaption{
+    font: italic 14px verdana, sans-serif;
+}
+
+div:not(.dropdown, .dropdown-content) {
+    width: 100px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #000000;
+   -moz-box-sizing: border-box; 
+     -webkit-box-sizing: border-box; 
+     box-sizing: border-box;
+}
+
+
+@media (max-width : 1000px){
+    #columna{
+        display: none;
+    }
+
+    #seccion {
+        width: calc(100% - 40px);
+    }
+
+    hgroup h1{
+        font: bold 15px verdana, sans-serif;
+    }
+
+    hgroup h2{
+        font: bold 10px verdana, sans-serif;
+    }
+
+    #cabecera h1{
+        text-align: center;
+    }
+
+    #menu li {
+        display: block;
+    }
+
+
+.dropdown{
+    display: inline-block;
+}
+
+.dropbtn{
+    background-color: transparent;
+    font: bold 14px verdana, sans-serif;
+    border: none;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #cccccc;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font: bold 14px verdana, sans-serif;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color: #dddddd;
+}
+
